@@ -1,5 +1,5 @@
 {
-    "name": "edelprino\phpunitstrap",
+    "name": "edelprino/phpunitstrap",
     "description": "PHPUnitStrap",
     "keywords": ["unittest", "phpunit", "php"],
     "homepage": "https://github.com/edelprino/PHPUnitStrap",
@@ -8,5 +8,8 @@
         "php":">=5.3.2",
         "phpunit/phpunit": "~3.7.0",
         "mockery/mockery": "~0.8.0"
+    },
+    "config": {
+        "bin-dir": "bin"
     }
 }
