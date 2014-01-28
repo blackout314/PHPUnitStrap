@@ -4,7 +4,7 @@ class FooTest extends PHPUnit_Framework_TestCase
 {
     public function testAddition()
     {
-        $foo = new Foo(2, 3);;
+        $foo = new Foo(2, 3);
         $this->assertEquals(5, $foo->addition());
     }
 
