@@ -1,3 +1,4 @@
 #!/bin/bash
 curl -sS https://getcomposer.org/installer | php
-./composer.phar create-project -s dev edelprino/phpunitstrap ./phpunitstrap
+php composer.phar create-project -s dev edelprino/phpunitstrap ./phpunitstrap
+rm -rf composer.phar
