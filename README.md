@@ -2,11 +2,13 @@
 Simple PHPUnit boostrap files
 
 ### Installation
+
 ```
-curl -sS https://raw.github.com/edelprino/PHPUnitStrap/master/install | sh
+curl -sS https://raw.githubusercontent.com/blackout314/PHPUnitStrap/master/install | sh
 ```
 
 ### Start
+
 ```
 cd phpunitstrap
 ./bin/phpunit
